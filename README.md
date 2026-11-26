@@ -44,10 +44,3 @@ jupyter notebook hedge_desk_final.ipynb
 ## Optional experiment
 
 [`optional/optional_refinement_check.py`](optional/optional_refinement_check.py) is one of the next experiments declared in [`REPORT.md`](REPORT.md) §12: refine the rebalancing grid on desk-model paths only (no test paths) and see how much of the quadratic hedge's residual risk is time-discretisation error. It is written to be pasted into a new last cell of the notebook; it is not part of the notebook. A sandbox run gave the following premium-free P&L variance (Monte Carlo standard error about 0.05): 1.983 with 63 dates, 1.896 with 126 and 1.870 with 252, so most of the residual risk survives a four-fold finer grid.
-
-## Provenance and sharing
-
-- This project was prepared with assistance from Claude (Anthropic). Follow the course's collaboration and tool-use rules, and be ready to explain the implementation.
-- It is coursework and contains a complete solution, so the course's rules on collaboration and sharing apply to how it is used.
-- `market_data.npz` is course-provided data and is deliberately not included. Copy it from the course materials; `.gitignore` keeps it out of commits.
-- `REPORT.md` §14 lists a correction to a sentence in the notebook's Brief 0 answer.
