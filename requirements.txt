@@ -1,0 +1,7 @@
+# Tested with NumPy 2.0.2, SciPy 1.13.1, Matplotlib 3.9.4, PyTorch 2.8.0.
+# CPU is sufficient; no market-data account or API key is needed.
+numpy>=1.24,<3
+scipy>=1.10,<2
+matplotlib>=3.7,<4
+torch>=2.0,<3
+notebook>=7,<8
